@@ -6,8 +6,17 @@
 
 function process() {
   x = document.getElementById("input").value
-  y = x.toLowerCase()
+
+   
+  words = x.split("")
+   for i = 0; i<words.length; i++) {
+    current_word = words[i]
+   }
+   
+  y = JSON.stringify (words)
   document.getElementById("output").value = y
 }
 
 </script>
+
+ 
