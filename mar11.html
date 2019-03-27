@@ -1,0 +1,12 @@
+<script>
+
+english = prompt("Enter your text in English")
+arabic_not_reversed = english.replace(/[aeiou]/g, "")
+
+arr = arabic_not_reversed.split("")
+arr.reverse()
+arabic = arr.join("")
+
+alert("Your text in Arabic is: "+arabic)
+
+</script>
