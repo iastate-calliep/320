@@ -1,0 +1,7 @@
+<script>
+x = prompt("Enter a sentence in Haigy Paigy")
+y = x.replace(/([bcdfghjklmnpqrstvwxz]*)([^aeiouy]*)([aeiouy]+)([^aeiouy])([e])\b/g, "$1aig$2$37")
+y = y.replace(/([AEIOUYaeiouy]+)/g, "aig$1") 
+y = y.replace(/^7/g, "e")
+alert(y)
+</script>
